@@ -29,7 +29,7 @@ def main():
             print()
 
         else:
-            print("Sorry", s, ", registration is closed for", c1.get_name())
+            print("Sorry ", s, ", registration is closed for ", c1.get_name(), sep="")
 
 
 main()
